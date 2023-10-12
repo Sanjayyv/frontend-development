@@ -1,0 +1,323 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    zoom: 90%;
+    -moz-transform: scale(0.8);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.8);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.8);
+    -webkit-transform-origin: 0 0;
+     margin-left:10%; 
+}
+.bodybg {
+    background: #2F1893;
+}
+
+.header {
+    position: relative;
+    display: inline-block;
+    width: 972px;
+    height: 40px;
+    top: 65px;
+    left: 213px;
+}
+
+.header1 {
+    position: absolute;
+    display: inline-block;
+}
+
+.startup {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: -0.2926828861236572px;
+    text-align: center;
+    width: 111px;
+    height: 19px;
+    padding: 0px, 3px, 0px, 2px;
+    top: -6px;
+    left: 2px;
+
+}
+
+.startup:hover {
+    text-decoration: none;
+}
+
+.header2 {
+    position: absolute;
+    display: inline-block;
+    width: 503px;
+    height: 40px;
+    left: 562px;
+}
+
+.special {
+    width: 80px;
+    height: 26px;
+    top: 72.4px;
+    left: 682px;
+    opacity: 30%;
+
+}
+
+a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+
+
+.Subbody {
+    position: absolute;
+    width: 427px;
+    height: 496px;
+    top: 150px;
+    left: 209px;
+}
+
+.SbodyHeader {
+    width: 424px;
+    height: 217px;
+    top: 150px;
+    left: 212px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.Sbody {
+    width: 350px;
+    height: 217px;
+    top: 100px;
+    left: 212px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+
+.Signupdiv {
+    position: absolute;
+    width: 470px;
+    height: 600px;
+    top: 187px;
+    left: 790px;
+    border: 2px solid #EBEAED;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.Signheader {
+    position: absolute;
+    left: 100px;
+
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: #1E0E62;
+}
+
+.inputtext {
+    top: 130px;
+    left: 67px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 330px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    position: relative;
+    left: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.declaration {
+    position: relative;
+    top: 150px;
+    left: 90px;
+    width: 258px;
+    height: 26px;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    margin-right: 5px;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.dtext {
+    display: inline;
+    color: #bdbac5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.Signin {
+    position: relative;
+    width: 315px;
+    height: 28px;
+    top: 360px;
+    left: 100px;
+    color: #bdbac5;
+}
+
+.nxtSign {
+    margin-left: 10px;
+    color: #25DAC5;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.nxtSign:hover {
+    text-decoration: underline;
+}
+
+.Haveacc {
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.headerbtn {
+    width: 120px;
+    height: 40px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    background-color: #E93A7D;
+    cursor: pointer;
+}
+
+/* Hover Effects */
+
+
+.headerbtn:hover {
+    transform: scale(1.06);
+    
+}
+
+.lbtn:hover {
+    transform: scale(1.06);
+    
+}
+
+.Signinbtn:hover {
+    transform: scale(1.03);
+    
+}
+
+.twtbtn:hover {
+    transform: scale(1.03);
+    
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.lbtn {
+    width: 157px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: #E93A7D;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.Signinbtn {
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    top: 360px;
+    left: 70px;
+    border-radius: 100px;
+    background: #482BE7;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.twtbtn {
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    top: 460px;
+    left: 70px;
+    border-radius: 100px;
+    background: #1DA1F2;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.or {
+    position: absolute;
+    width: 16px;
+    top: 423.4px;
+    left: 230px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #15143966;
+}
